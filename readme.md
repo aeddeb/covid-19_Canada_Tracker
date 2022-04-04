@@ -37,3 +37,12 @@ For more information on the dataset, please refer to their git repo: https://git
 - Create dev and prod environments
 - Add tests
 - Add CI/CD pipeline
+
+### Credit
+A big thank you goes to the team at [Data Talks Club](https://datatalks.club/) for organizing a free online Data Engineering bootcamp!
+
+If interested, you can go through the bootcamp at your own pace. The bootcamp is linked here:
+- github repo: https://github.com/DataTalksClub/data-engineering-zoomcamp
+- youtube series: https://www.youtube.com/watch?v=bkJZDmreIpA&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb 
+
+This submission was my final project for the bootcamp.
