@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+    - name: core
+      database: sinuous-gist-339116
+      schema: covid_CA_data
+      tables:
+        - name: covid_CA_raw

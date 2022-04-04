@@ -1,0 +1,6 @@
+dbt-bigquery==1.0.0
+apache-airflow-providers-google
+pandas
+sqlalchemy
+psycopg2-binary
+# pyarrow

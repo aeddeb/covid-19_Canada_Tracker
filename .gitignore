@@ -1,0 +1,14 @@
+/dbt-dev
+/development
+
+/airflow/docker_wsl_error.JPG
+/airflow/dags/__pycache__/*
+/airflow/logs/*
+
+/terraform/*
+!/terraform/main.tf
+!/terraform/variables.tf
+
+/dbt/target/
+/dbt/dbt_modules/
+/dbt/logs/
