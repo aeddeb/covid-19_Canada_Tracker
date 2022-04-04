@@ -46,3 +46,16 @@ If interested, you can go through the bootcamp at your own pace. The bootcamp is
 - youtube series: https://www.youtube.com/watch?v=bkJZDmreIpA&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb 
 
 This submission was my final project for the bootcamp.
+
+
+## Brief Instructions to Reproduce this Project
+*(More in-depth instructions to be provided)*
+1. Create a google cloud platform account on GCP.
+2. Create VM on Google Cloud and install Ubuntu 20.04
+3. Create google service account with the appropriate permissions.
+4. In your VM, install python, docker, terraform and git.
+5. In your VM, clone the codes from this git repository and change the variables to the new environment. 
+    * terraform: main.tf, variables.tf
+    * airflow: Dockerfile, docker-compose.yaml
+6. Run terraform to build the services in GCP.
+7. Run docker compose in the airflow folder to start up the dags.
