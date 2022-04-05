@@ -12,9 +12,8 @@ BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET")
 TABLE_NAME = "covid_ca_raw"
 
 with DAG(
-    dag_id = f'load_transformation_dag',
-    description = f'Execute only once to create songs table in bigquery',
-    schedule_interval="@once",
+    dag_id = 'load_transformation_dag',
+    schedule_interval="@daily", # refresh daily
     start_date=datetime(2022,3,20),
     end_date=datetime(2022,3,20),
     catchup=False,

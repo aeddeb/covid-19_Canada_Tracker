@@ -11,8 +11,8 @@ with DAG(
     dag_id = 'dbt_test',
     default_args = default_args,
     description = 'Test dbt',
-    schedule_interval="@once", #At the 5th minute of every hour
-    start_date=datetime(2022,3,20),
+    schedule_interval="@once",
+    start_date=datetime(2022,4,1),
     catchup=True,
     tags=['dbt']
 ) as dag:
